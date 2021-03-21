@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".LoginKuy"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_back2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="BACK"
+        android:textSize="10dp"
+        android:textAlignment="center"
+        android:background="#E8D746"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ayologin"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="150dp"
+        android:background="@color/buttonColor"
+        android:text="Login"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textColor">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="400dp"
+        android:hint="Username"
+        android:textColorHint="@color/textColor" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="450dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/textColor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-400dp"
+        android:layout_marginTop="60sp"
+        android:text="Kuy Login Dulu"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvAttemptsInfo"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-275dp"
+        android:layout_marginTop="600dp"
+        android:text="Attempts Remaining 5" />
+
+</LinearLayout>

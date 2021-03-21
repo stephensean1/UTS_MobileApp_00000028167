@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MulaiLagu"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_back3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/Kuning"
+        android:text="BACK"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/logo"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/iu"/>
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="-335dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="450dp"
+        android:gravity="center"
+        android:text="Song Name"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:layout_marginLeft="-370dp"
+        android:layout_marginRight="35dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mSeekBarTime"
+        android:layout_below="@id/songName"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/prev"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="555dp"
+            android:id="@+id/previous"/>
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="555dp"
+        android:src="@drawable/play3" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="555dp"
+        android:src="@drawable/next" />
+
+</LinearLayout>

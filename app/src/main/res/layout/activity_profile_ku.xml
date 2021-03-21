@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".ProfileKu"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/Linear_logoProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_back1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#EDDB3F"
+            android:text="BACK"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Ku"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="40dp"></TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/benar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginTop="50sp"
+            android:text="NIM : 00000028167"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginTop="-100sp"
+            android:text="NAMA : STEPHEN SEAN"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginTop="-100sp"
+            android:text="KELAS : FL"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-60dp"
+            android:text="Referensi"
+            android:textAlignment="center"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-120dp"
+            android:text="https://www.youtube.com/channel/UCEnbUTEcbS8fAQxgsKQI7Sw"
+            android:textAlignment="center"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="-100dp"
+            android:text="https://www.youtube.com/channel/UCCo-b1_FEs5-hcTGBNidh6Q"
+            android:textAlignment="center"
+            android:textColor="@color/textColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Linear_logoProfile"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
